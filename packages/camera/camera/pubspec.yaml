@@ -22,7 +22,11 @@ flutter:
 
 dependencies:
   camera_android:
-    path: ../camera_android
+    git:
+      url: git@github.com:jejeagriaku/camera.git
+      ref: synchronized-camera
+      path: packages/camera/camera_android
+
   camera_avfoundation: ^0.9.13
   camera_platform_interface: ^2.5.0
   camera_web: ^0.3.1
